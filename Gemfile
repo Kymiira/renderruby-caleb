@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "sinatra", "~> 2.2.4"
-gem "obstruct"
+ruby "3.2.2"
 
-
+gem "sinatra"
