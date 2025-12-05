@@ -1,33 +1,25 @@
-GIT
-  remote: https://github.com/sinatra/sinatra.git
-  revision: 8c2f52b0f3d6c89e5c92775e1c284d2daf0e3d7c
-  branch: master
-  specs:
-    sinatra (4.0.0.pre)
-      mustermann (~> 3.0)
-      rack (~> 3.0)
-      rack-protection (= 4.0.0.pre)
-      tilt (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    base64 (0.2.0)
     mustermann (3.0.0)
     rack (3.0.9)
-    rack-protection (4.0.0.pre)
-      base64 (>= 0.1.0)
-      rack (>= 3.0.0)
+    rack-protection (3.2.0)
+      rack (~> 3.0)
     tilt (2.3.0)
+    sinatra (3.2.0)
+      mustermann (~> 3.0)
+      rack (~> 3.0)
+      rack-protection (= 3.2.0)
+      tilt (~> 2.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  sinatra!
+  sinatra (= 3.2.0)
 
 RUBY VERSION
-  ruby 3.2.2p0
+   ruby 3.2.2p0
 
 BUNDLED WITH
-  2.5.9
+   2.5.9
